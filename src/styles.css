@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    background-image: url('src/assets/font.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin: auto;*/
+    color: white;
+}
+
+@font-face {
+    font-family: Love Nature;
+    src: url('/assets/font/Love Nature.otf') format("opentype");
+  }
+
+h1 {
+    font-family: 'Love Nature';
+}
+
+p{
+    font-weight: bold;
+}
+
+
+
+
