@@ -5,3 +5,19 @@
 .btn-light {
     border-radius: 50px;
 }
+
+.navbar-brand{
+    font-family: 'Love Nature';
+}
+
+.nav-link{
+    font-family: 'Arial';
+}
+
+.btn{
+    font-family: 'Arial';
+}
+
+.navbar{
+    background-color: #0D0D0D;
+}

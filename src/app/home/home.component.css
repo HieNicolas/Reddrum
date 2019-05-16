@@ -25,3 +25,7 @@
 .HomeText .HomeButton{
     display: flex;
 }
+
+.btn{
+    font-family: 'Arial';
+}
