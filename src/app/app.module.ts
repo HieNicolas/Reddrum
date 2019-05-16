@@ -9,6 +9,7 @@ import { BlogComponent } from './blog/blog.component';
 import { NavComponent } from './nav/nav.component';
 import { NewsComponent } from './news/news.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { NewsComponent } from './news/news.component';
     HomeComponent,
     BlogComponent,
     NavComponent,
-    NewsComponent
+    NewsComponent,
+  
   ],
   imports: [
     BrowserModule,
