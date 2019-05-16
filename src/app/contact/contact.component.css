@@ -1,3 +1,46 @@
 .SeConnecter{
     margin-right: 10px;
 }
+
+@font-face {
+  font-family: Love Nature;
+  src: url('/assets/font/Love Nature.otf') format("opentype");
+}
+
+h2 {
+  font-family: 'Love Nature';
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-horizontal{
+  display: flex;
+  background: none;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.btn-default {
+  color: #ffff;
+  font-size: 18px;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  font-size: 18px;
+}
+
