@@ -2,14 +2,17 @@
 
 <div class="row custom-row">
 
-    <form class="form-horizontal">
+    <form [formGroup]="formGroup" (submit)="subscribe()" class="form-horizontal">
       <fieldset>
         <h2>S'inscrire a la NewsLetter</h2>
 
         <!--- Email Block --->
         <div class="form-group">
           <label for="inputEmail" style="margin: auto"></label>
-          <input type="text"
+          <input formControlName="mail"
+                 required
+                 type="text"
+                 class="form-control"
                  id="inputEmail"
                  placeholder="Email"
                  style="border-radius: 15px"
@@ -17,14 +20,14 @@
         </div>
         <div class="form-group checkbox">
           <label>
-            <input type="checkbox"> J'ai lu les conditions générales d'utilisation
+            <input type="checkbox" formControlName="isAccepted"> J'ai lu les conditions générales d'utilisation
           </label>
         </div>
 
         <!--- Buttons Block --->
         <div class="form-group">
-          <button type="reset" class="btn btn-default">Cancel</button>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-default">Annuler</button>
+          <button type="submit" class="btn btn-primary">Valider</button>
         </div>
       </fieldset>
     </form>

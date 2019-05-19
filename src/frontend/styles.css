@@ -2,7 +2,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body{
-    background-image: url('src/assets/font.jpg');
+    background-image: url('src/frontend/assets/font.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /*margin: auto;*/

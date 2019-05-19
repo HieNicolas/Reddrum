@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { BlogComponent } from './blog/blog.component';
 import { NavComponent } from './nav/nav.component';
 import { NewsComponent } from './news/news.component';
+import {SubscriptionsService} from './services/subscriptions.service';
+import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -18,13 +21,14 @@ import { NewsComponent } from './news/news.component';
     BlogComponent,
     NavComponent,
     NewsComponent,
-  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [SubscriptionsService],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
