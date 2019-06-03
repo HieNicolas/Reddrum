@@ -1,0 +1,16 @@
+body{
+    background-image: none;
+}
+
+.container{
+    margin-top: 25px;
+}
+
+section{
+    margin-top: 150px;
+}
+
+img{
+    height: 250px;
+    padding-right: 40px;
+}
