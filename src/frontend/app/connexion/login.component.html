@@ -1,0 +1,34 @@
+<app-nav></app-nav>
+
+<div class="row custom-row">
+
+    <form [formGroup]="formGroup" (submit)="attemptLogin()" class="form-horizontal">
+      <fieldset>
+        <h2>Se connecter</h2>
+
+        <!--- Email Block --->
+        <div class="form-group">
+          <label for="inputEmail" style="margin: auto"></label>
+          <input formControlName="mail"
+                 required
+                 type="text"
+                 class="form-control"
+                 id="inputEmail"
+                 placeholder="Email"
+          >
+        </div>
+        <div class="form-group checkbox">
+          <label>
+            <input type="password" class="form-control" formControlName="password">
+          </label>
+        </div>
+
+        <!--- Buttons Block --->
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Valider</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+

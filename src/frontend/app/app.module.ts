@@ -11,6 +11,9 @@ import { NewsComponent } from './news/news.component';
 import {SubscriptionsService} from './services/subscriptions.service';
 import {ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import {LoginComponent} from './connexion/login.component';
+import {RegisterComponent} from './register/register.component';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -21,12 +24,15 @@ import {HttpClientModule} from '@angular/common/http';
     BlogComponent,
     NavComponent,
     NewsComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
   providers: [SubscriptionsService],
   bootstrap: [AppComponent],
