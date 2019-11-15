@@ -2,15 +2,23 @@ body{
     background-image: none;
 }
 
+
+
 .container{
     margin-top: 25px;
 }
 
 section{
     margin-top: 150px;
+  margin-right: 1000px;
+  margin-bottom: 00px;
+  color: lightgray;
+
 }
 
 img{
     height: 250px;
     padding-right: 40px;
 }
+
+
